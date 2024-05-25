@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal blog sharing insights, stories, and experiences.">
+    <title>Jane's Insightful Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: auto;
+        }
+        .post {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+        }
+        .post img {
+            max-width: 100%;
+        }
+        .img1{
+            width: 60vh;
+        }
+        .img2{
+            width: 50vh;
+        }
+        input, textarea{
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jane's Insightful Blog</h1>
+        <p>Your daily dose of inspiration and knowledge</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#posts">Blog Posts</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to My Blog!</h2>
+            <p>Hello! I'm Jane, a passionate writer and avid learner. This blog is a space where I share my thoughts, stories, and experiences on various topics. Stay tuned for engaging content and feel free to connect with me!</p>
+        </section>
+        <section id="posts">
+            <h2>Blog Posts</h2>
+            <div class="post">
+                <h3>Exploring the Beauty of Nature</h3>
+                <p><strong>Summary:</strong> Join me on a journey through some of the most breathtaking natural landscapes.</p>
+                <img class="img1" src="https://img.freepik.com/free-photobeautiful-natural-view-landscape_23-2150787996.jpg" alt="Beautiful nature scenery">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque, nisi ut aliquam tincidunt, eros sem fermentum sapien, a aliquam nisl quam sit amet urna. Donec accumsan, ipsum in placerat scelerisque, turpis tortor luctus libero, at congue urna sem non eros.</p>
+                <!-- <video controls> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/B8108ujbpUM?si=cJFzLFDp82Y8q6Md" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <source src="nature.mp4" type="video/mp4"> -->
+                    Your browser does not support the video tag.
+                <!-- </video> -->
+            </div>
+            <div class="post">
+                <h3>Delicious Homemade Recipes</h3>
+                <p><strong>Summary:</strong> Discover some easy and delicious recipes to try at home.</p>
+                <img class="img2" src="Delicious food.jpg" alt="Delicious food">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque, nisi ut aliquam tincidunt, eros sem fermentum sapien, a aliquam nisl quam sit amet urna. Donec accumsan, ipsum in placerat scelerisque, turpis tortor luctus libero, at congue urna sem non eros.</p>
+                <video width="320" height="240" controls>
+                    <source src="Delicious Food .mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Jane! I have a deep love for writing and exploring new ideas. This blog is my way of sharing my passions with the world. I hope you enjoy reading my posts as much as I enjoy writing them!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:jane@example.com">jane@example.com</a> or connect with me on social media:</p>
+            <p>
+                <a href="https://www.facebook.com/jane">Facebook</a> |
+                <a href="https://www.twitter.com/jane">Twitter</a> |
+                <a href="https://www.instagram.com/jane">Instagram</a>
+            </p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jane's Insightful Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
